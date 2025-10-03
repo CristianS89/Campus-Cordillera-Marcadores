@@ -1,0 +1,27 @@
+name: macador_bd_cs
+description: "Mapa de gestión de marcadores con SQLite"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/logoItsco.png
+  - assets/images/logo01.png
